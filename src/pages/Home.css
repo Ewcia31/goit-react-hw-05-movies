@@ -9,21 +9,12 @@ h1 {
 .trending-movies {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px;
-  min-height: 100vh;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.trending-movies-item a {
-  color: gray;
-  font-size: larger;
 }
 
 .trending-movies h1 {
   text-align: center;
-  color: #333;
-  margin-bottom: 20px;
+  color: black;
+  margin-bottom: 30px;
 }
 
 .trending-movies-list {
@@ -37,10 +28,9 @@ h1 {
 }
 
 .trending-movies-item {
-  background-color: #fff;
+  background-color: white;
   max-width: 200px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border: 1px solid gray;
   padding: 10px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
@@ -54,7 +44,6 @@ h1 {
 .trending-movies-item img {
   width: 100%;
   height: auto;
-  border-radius: 5px;
 }
 
 .trending-movies-item a {
