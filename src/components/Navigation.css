@@ -1,10 +1,11 @@
 .navi {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 100px;
   max-width: 300px;
   margin: 50px auto;
-  color: black;
+  font-size: x-large;
+  
 }
 
 .navi a {

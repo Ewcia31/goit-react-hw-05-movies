@@ -1,5 +1,5 @@
 h1 {
-  color: black;
+  color: white;
 }
 
 .searched-movies {
@@ -8,7 +8,7 @@ h1 {
 }
 .searched-movies h1 {
   text-align: center;
-  color: black;
+  color: white;
   margin-bottom: 30px;
 }
 
@@ -26,21 +26,17 @@ h1 {
   background-color: #fff;
   max-width: 200px;
   border: 1px solid #ddd;
-  border-radius: 8px;
   padding: 10px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 
 .searched-movies-item:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .searched-movies-item img {
   width: 100%;
   height: auto;
-  border-radius: 5px;
 }
 
 .searched-movies-item a {

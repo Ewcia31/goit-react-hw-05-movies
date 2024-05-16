@@ -5,7 +5,7 @@ import './Navigation.css';
 function Navigation() {
   const activeStyle = {
     fontWeight: 'bold',
-    color: 'black',
+    color: 'white',
   };
 
   return (
@@ -13,7 +13,6 @@ function Navigation() {
       <NavLink exact="true" to="/" style={activeStyle}>
         HOME
       </NavLink>{' '}
-      |{' '}
       <NavLink to="/movies" style={activeStyle}>
         MOVIES
       </NavLink>

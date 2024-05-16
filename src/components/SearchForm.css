@@ -1,9 +1,9 @@
 .searched-movies-input {
-  height: 35px;
+  height: 34px;
   width: 300px;
   border: 1px solid gray;
   padding-left: 10px;
-  transition: border-color 0.3s ease;
+  margin-right: 20px;
 }
 
 .searched-movies-input:focus,
@@ -16,7 +16,6 @@
 .searched-movies-button {
   width: 90px;
   height: 38px;
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
   background-color: white;
   border-color: gray;
   border-width: 0.1px;
